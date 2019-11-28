@@ -14,7 +14,7 @@ class Top extends Component {
 
   render() {
     return (
-      <Navbar className="top" collapseOnSelect="true" expand="false" bg="dark" variant="dark">
+      <Navbar className="top" collapseOnSelect="true" expand="false" bg="dark" variant="dark" data-test="top">
         <Navbar.Brand>
           Joker
         </Navbar.Brand>

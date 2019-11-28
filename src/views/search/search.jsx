@@ -36,7 +36,7 @@ export default function Search(props) {
   }
  
   return (
-    <div className="search">
+    <div className="search" data-test="search">
       <Top />
       <Row className="rowJoker">
         <Image src={jokerImg} roundedCircle />

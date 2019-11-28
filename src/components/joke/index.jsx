@@ -7,9 +7,11 @@ export default function Joke(props) {
 
   return (
       <Fragment>
-        <Alert variant="success" className="alertMessage">
-        <Alert.Heading>Joke - { value.id }</Alert.Heading>
-          <p>
+        <Alert variant="success" className="alertMessage" data-test="joke-item">
+        <Alert.Heading >
+          <span data-test="joke-item-id">Joke - { value.id }</span>
+        </Alert.Heading>
+          <p data-test="joke-item-joke">
             {value.joke}
           </p>
         </Alert>

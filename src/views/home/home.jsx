@@ -14,7 +14,7 @@ export default function Home(props) {
   const { joker } = useSelector(state => {
     return state
   });
-
+  
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function Home(props) {
   }, []);
  
   return (
-    <div className="home">
+    <div className="home" data-test="home">
       <Top />
       <Row className="rowJoker">
         <Image src={jokerImg} roundedCircle />

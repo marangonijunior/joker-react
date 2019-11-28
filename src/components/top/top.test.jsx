@@ -1,12 +1,13 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import { expect } from 'chai';
-
+import Enzyme, { shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import Top from './index';
+
+Enzyme.configure({ adapter: new Adapter() });
 
 describe('<Top />', () => {
   it('Should renders the Top component', () => {
-    const wrapper = shallow(<Top />);
-    expect(wrapper.find('top')).to.have.lengthOf(1);
+    const component = shallow(<Top />);
+    expect(component.find('[data-test="top"]').exists()).toEqual(true);
   });
 });
