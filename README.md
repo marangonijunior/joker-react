@@ -1,10 +1,5 @@
 ## JOKE
 
-Click in menu to navigate bettewen the screens.
-
-- Home, to get a simple joke
-- Search, to get a Joke with a first and last name inside a joke.
-
 ## Available Scripts
 
 In the project directory, you can run:
