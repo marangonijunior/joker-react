@@ -1,0 +1,29 @@
+.home{
+    margin: 15%;
+    width: 70%;
+    background-color: #B0BEC5;
+    border-radius: 15px;
+    height: 320px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+
+    input{
+      height: 40px;
+      width: 80%;
+      border-radius: 15px;
+      padding-left: 15px;
+    }
+
+    button {
+      width: 25%;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #37474F;
+      color: #fff;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      border: none;
+    }
+}
+

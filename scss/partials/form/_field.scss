@@ -1,0 +1,79 @@
+.field {
+    margin: 15px 0px;
+    font-family: 'coop', sans-serif;
+
+    .inputField {
+        margin: 0;
+
+        .inputField__label {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+    }
+
+    &.dropdown__field {
+
+        .selectComponent {
+            margin: 0;
+
+            .selectComponent__label {
+                
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
+
+    .field__container {
+        
+        position: relative;
+        max-width: 315px;
+
+        .field__textbox {
+
+            @extend %coop-border--default;
+            position: relative;
+            width: 100%;
+            height: 54px;
+            padding: 10px;
+            max-width:309px;
+            font-size: 18px;
+            border-radius: 5px;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            font-family: 'coop', sans-serif;
+
+            &.field__textbox--icon {
+
+                padding: 10px 10px 10px 25px;
+            }
+            
+          }
+          
+    }
+
+    .field__label,
+    .field__legend {
+        display: flex;
+        font-size: 21px;
+        line-height: 30px;
+        margin-bottom: 12px;
+
+        &.field__label--radio {
+            margin-bottom: 0;
+        }
+
+        &.field__label--m-0, 
+		&.field__legend--m-0 {
+            margin-bottom: 0; 
+        }
+    }
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

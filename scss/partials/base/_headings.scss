@@ -1,0 +1,66 @@
+//styling for headings 
+
+%h {
+	@extend %font-coop--bold; 
+	color: $coop-primary-blue;
+}
+
+h1 {
+	@extend %h;
+	font-size: 40px;
+}
+
+h2 {
+	@extend %h;
+	font-size: 36px;
+}
+
+h3 {
+	@extend %h;
+	font-size: 32px;
+}
+
+h4 {
+	@extend %h;
+	font-size: 26px;
+}
+
+h5 {
+	@extend %h;
+	font-size: 22px;
+}
+
+h6 {
+	@extend %h;
+	font-size: 16px;
+}
+
+.bold-heading {
+	font-weight: 800;
+}
+
+.heading-blue {
+	color: $coop-primary-blue;
+	font-size: 26px;
+}
+
+.heading-black {
+	color: $coop-primary-black;
+}
+
+p {
+	line-height: 24px;
+	font-size: 20px;
+
+	a {
+		color: $coop-blue-link-color;
+
+		&:hover {
+			color: $coop-primary-blue;
+		}
+	}
+
+	strong {
+		@extend %font-coop--bold; 
+	}
+}

@@ -1,0 +1,34 @@
+// sass-lint:disable single-line-per-selector, indentation, property-sort-order, empty-line-between-blocks
+@font-face {
+  font-family: 'coop';
+  src: url('./fonts/CoopBank-Bold.eot');
+  src: url('./fonts/CoopBank.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/CoopBank.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'coop-light';
+  src: url('./fonts/CoopBank-Light.eot');
+  src: url('./fonts/CoopBank-Light.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/CoopBank-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'coop-bold';
+  src: url('./fonts/CoopBank-Bold.eot');
+  src: url('./fonts/CoopBank-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/CoopBank-Bold.woff') format('woff');
+}
+
+%font-coop--regular {
+  font-family: 'coop', sans-serif;
+}
+
+%font-coop--light {
+  font-family: 'coop-light', sans-serif;
+}
+
+%font-coop--bold {
+  font-family: 'coop-bold', sans-serif;
+}

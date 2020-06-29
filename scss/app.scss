@@ -1,0 +1,30 @@
+// Main SCSS fie No direct CSS to be put in here only @imports //
+// Base //
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  
+  font-family: "Asap","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,'Courier New',
+    monospace;
+}
+
+@import './partials/base/_fonts';
+@import './partials/base/_vars';
+@import './partials/base/_buttons';
+@import './partials/base/_helpers';
+@import './partials/base/_headings';
+@import './partials/base/_box';
+
+@import './partials/form/_field';
+@import './partials/common';
+
+// components
+@import '../scss/component/home.scss';
+@import '../scss/component/result.scss';

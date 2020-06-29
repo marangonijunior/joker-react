@@ -1,0 +1,16 @@
+.box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid $coop-tertiary-blue;
+    border-radius: 5px;
+
+    &.warning-box {
+      
+      background: $coop-warning-box-red;
+      color: $coop-primary-red;
+      border: none;
+      border-radius: 5px;
+      line-height: 30px;
+      font-size: 18px;
+    }
+  }
